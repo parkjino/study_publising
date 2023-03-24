@@ -1,4 +1,4 @@
-# Outback Web Page
+# 🍴 Outback Web Page
 ### 2023. 03. 23
 #### login
 - [page](https://parkjino.github.io/study_publising/htmls/outback/login.html)
