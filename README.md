@@ -14,6 +14,13 @@
 ***
 
 ### 2023. 03. 25
-#### findID / findPW hm
-- [page]
-- [code]
+#### findID / findPW HM
+
+#### findID
+- [page](https://parkjino.github.io/study_publising/htmls/outback/findId.html)
+- [code](https://github.com/parkjino/study_publising/blob/master/docs/htmls/outback/findId.html)
+
+#### findPw
+- [page](https://parkjino.github.io/study_publising/htmls/outback/findPw.html)
+- [code](https://github.com/parkjino/study_publising/blob/master/docs/htmls/outback/findPw.html)
+
