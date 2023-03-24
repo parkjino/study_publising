@@ -10,3 +10,10 @@
 #### navbar
 - [page](https://parkjino.github.io/study_publising/htmls/outback/navbar.html)
 - [code](https://github.com/parkjino/study_publising/blob/master/docs/htmls/outback/navbar.html)
+
+***
+
+### 2023. 03. 25
+#### findID / findPW hm
+- [page]
+- [code]
