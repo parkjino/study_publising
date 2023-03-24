@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -12,138 +12,227 @@
       crossorigin="anonymous"
     />
     <style>
-        .outline:focus{
-            outline: 1px solid rgb(203,0,0);
-        }
+      .outline:focus {
+        outline: 1px solid rgb(203, 0, 0);
+      }
 
-        .nav_menu{
-            text-decoration: none;
-            color: white;
-        }
+      .nav_menu {
+        text-decoration: none;
+        color: white;
+      }
 
-        .nav_menu:hover{
-            color: white;
-        }
+      .nav_menu:hover {
+        color: white;
+      }
     </style>
-</head>
-<body>
-    <header style="position: fixed; width: 100%;">
-        <nav style="background-color: rgb(52,52,54) ; height: 100%; padding: 20px 0px 20px 0px;" class="navbar">
-            <div class="container">
-    
-                <div>
-                    <a class="navbar-brand" href="">
-                        <img width="100px" src="../../images/outback img.png" alt="">
-                    </a>
+  </head>
+  <body>
+    <!-- 상단에 고정 -->
+    <header style="position: fixed; width: 100%">
+      <nav
+        style="
+          background-color: rgb(52, 52, 54);
+          height: 100%;
+          padding: 20px 0px 20px 0px;
+        "
+        class="navbar"
+      >
+        <div class="container">
+          <!-- 브랜드 로고 -->
+          <div>
+            <a class="navbar-brand" href="">
+              <img width="100px" src="../../images/outback img.png" alt="" />
+            </a>
+          </div>
+          <div class="navbar">
+            <!-- 메뉴 -->
+            <div class="row">
+              <div class="col-auto">
+                <div class="dropdown">
+                  <a
+                    style="cursor: pointer"
+                    class="nav_menu dropdown-toggle fw-bold"
+                    data-bs-toggle="dropdown"
+                    >BRAND</a
+                  >
+                  <ul
+                    class="menu dropdown-menu dropdown-menu-dark opacity-75"
+                    style="
+                      background-color: rgba(0, 0, 0, 50);
+                      padding: 20px 0px 20px 10px;
+                      margin-top: 28px;
+                      border-radius: 0px;
+                      font-size: 0.8rem;
+                    "
+                  >
+                    <a class="dropdown-item" href="">OUTBACK STORY</a>
+                    <a class="dropdown-item" href="">BEEF STORY</a>
+                    <a class="dropdown-item" href="">STEAK ACADEMY</a>
+                    <a class="dropdown-item" href="">OUTBACK CSR</a>
+                    <a class="dropdown-item" href="">PRESS CENTER</a>
+                  </ul>
                 </div>
-                <div class="navbar">
-                    <div class="row">
-                        <div class=" col-auto">
-                            <div class="dropdown" >
-                                <a style="cursor:pointer;"  class="nav_menu dropdown-toggle fw-bold" data-bs-toggle="dropdown" >BRAND</a>
-                                <ul class="menu dropdown-menu  dropdown-menu-dark opacity-75" style="background-color: rgba(0,0,0,50); padding: 20px 0px 20px 10px; margin-top: 28px; border-radius: 0px;
-                                font-size: 0.8rem">
-                                    <a class="dropdown-item" href="">OUTBACK STORY</a>
-                                    <a class="dropdown-item"  href="">BEEF STORY</a>
-                                    <a class="dropdown-item"  href="">STEAK ACADEMY</a>
-                                    <a class="dropdown-item"  href="">OUTBACK CSR</a>
-                                    <a class="dropdown-item" href="">PRESS CENTER</a>
-                                </ul>
-                            
-                            </div>
-    
-                        </div>
-                        <div class=" col-auto">
-                            <div class="dropdown" >
-                                <a style="cursor:pointer"  class="nav_menu dropdown-toggle fw-bold" data-bs-toggle="dropdown" >MENU</a>
-                                <ul class="menu dropdown-menu  dropdown-menu-dark opacity-75" style="background-color: rgba(0,0,0,50); padding: 20px 0px 20px 10px; margin-top: 28px; border-radius: 0px;
-                                font-size: 0.8rem">
-                                    <a class="dropdown-item" href="">PERFECT BONE-IN STEAK EDITION</a>
-                                    <a class="dropdown-item"  href="">TOMAHAWK STEAK</a>
-                                    <a class="dropdown-item"  href="">PORTERHOUSE STEAK</a>
-                                    <a class="dropdown-item"  href="">BLACK LABEL STEAKS</a>
-                                    <a class="dropdown-item" href="">STEAK & FAVORITES</a>
-                                    <a class="dropdown-item"  href="">LUNCH SET</a>
-                                    <a class="dropdown-item"  href="">PASTA & SALADS</a>
-                                    <a class="dropdown-item" href="">WINES</a>
-                                    <a class="dropdown-item"  href="">DESSERTS & OTHERS</a>
-                                    <a class="dropdown-item"  href="">DELIVERY</a>
-                                    <a class="dropdown-item"  href="">LUNCH BOX</a>
-                                </ul>
-                            
-                            </div>
-                        </div>
-                        <div class=" col-auto">
-                            <div class="dropdown" >
-                                <a style="cursor:pointer"  class="nav_menu dropdown-toggle fw-bold" data-bs-toggle="dropdown" >MEMBERSHIP</a>
-                                <ul class="menu dropdown-menu  dropdown-menu-dark opacity-75" style="background-color: rgba(0,0,0,50); padding: 20px 0px 20px 10px; margin-top: 28px; border-radius: 0px;
-                                font-size: 0.8rem">
-                                    <a class="dropdown-item" href="">BOOMERANG MEMBERSHIP</a>
-                                    <a class="dropdown-item"  href="">MEMBERSHIP BENEFIT</a>
-                                    
-                                </ul>
-                            
-                            </div>
-                        </div>
-                        <div class=" col-auto">
-                            <div class="dropdown" >
-                                <a style="cursor:pointer"  class="nav_menu dropdown-toggle fw-bold" data-bs-toggle="dropdown" >BENEFIT</a>
-                                <ul class="menu dropdown-menu  dropdown-menu-dark opacity-75" style="background-color: rgba(0,0,0,50); padding: 20px 0px 20px 10px; margin-top: 28px; border-radius: 0px;
-                                font-size: 0.8rem">
-                                    <a class="dropdown-item" href="">CREDIT CARDS</a>
-                                    <a class="dropdown-item"  href="">SKT & KT</a>
-                                    <a class="dropdown-item"  href="">POINT PAYMENT</a>
-                                    <a class="dropdown-item"  href="">VOUCHER</a>
-                                    <a class="dropdown-item" href="">EVENT</a>
-                                </ul>
-                            
-                            </div>
-                        </div>
-                        <div class=" col-auto">
-                            <div class="dropdown" >
-                                <a style="cursor:pointer"  class="nav_menu dropdown-toggle fw-bold" data-bs-toggle="dropdown" >ACADEMY</a>
-                                <ul class="menu dropdown-menu  dropdown-menu-dark opacity-75" style="background-color: rgba(0,0,0,50); padding: 20px 0px 20px 10px; margin-top: 28px; border-radius: 0px;
-                                font-size: 0.8rem">
-                                    <a class="dropdown-item" href="">Steak Cooking Class I</a>
-                                    <a class="dropdown-item"  href="">Steak Cooking Class II</a>
-                                    <a class="dropdown-item"  href="">Culinary Class</a>
-                                    <a class="dropdown-item"  href="">Wine Class</a>
-                                    
-                                </ul>
-                            
-                            </div>
-                        </div>
-        
-                        <div class="col-auto">
-                            <a style="cursor:pointer"  class="nav_menu fw-bold">STORE</a>
-                            
-                        </div>
-                    </div>
-                    </div>
-                    <div class="row" style="font-size:0.8rem">
-                        <div class="col" >
-                            <a class="text-nowrap" style="color: rgb(146,145,146); text-decoration: none;" href="">고객의 소리</a>
-                        </div>
-                        <div class="col" >
-                            <a class="text-nowrap" style="color: rgb(146,145,146);text-decoration: none" href="">채용</a>
-                        </div>
-                        <div class="col" >
-                            <a  class="text-nowrap" style="color: rgb(146,145,146);text-decoration: none" href="./login.html">로그인</a>
-                        </div>
-                        <div class="col">
-                            <a class="nav_menu text-nowrap" href="" style="background-color:rgb(85,85,85) ; padding: 5px 20px 5px 20px;text-decoration: none">회원가입</a>
-                            
-                        </div>
-                    </div>
-            </div>       
-            
-        </nav>
+              </div>
+              <div class="col-auto">
+                <div class="dropdown">
+                  <a
+                    style="cursor: pointer"
+                    class="nav_menu dropdown-toggle fw-bold"
+                    data-bs-toggle="dropdown"
+                    >MENU</a
+                  >
+                  <ul
+                    class="menu dropdown-menu dropdown-menu-dark opacity-75"
+                    style="
+                      background-color: rgba(0, 0, 0, 50);
+                      padding: 20px 0px 20px 10px;
+                      margin-top: 28px;
+                      border-radius: 0px;
+                      font-size: 0.8rem;
+                    "
+                  >
+                    <a class="dropdown-item" href=""
+                      >PERFECT BONE-IN STEAK EDITION</a
+                    >
+                    <a class="dropdown-item" href="">TOMAHAWK STEAK</a>
+                    <a class="dropdown-item" href="">PORTERHOUSE STEAK</a>
+                    <a class="dropdown-item" href="">BLACK LABEL STEAKS</a>
+                    <a class="dropdown-item" href="">STEAK & FAVORITES</a>
+                    <a class="dropdown-item" href="">LUNCH SET</a>
+                    <a class="dropdown-item" href="">PASTA & SALADS</a>
+                    <a class="dropdown-item" href="">WINES</a>
+                    <a class="dropdown-item" href="">DESSERTS & OTHERS</a>
+                    <a class="dropdown-item" href="">DELIVERY</a>
+                    <a class="dropdown-item" href="">LUNCH BOX</a>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-auto">
+                <div class="dropdown">
+                  <a
+                    style="cursor: pointer"
+                    class="nav_menu dropdown-toggle fw-bold"
+                    data-bs-toggle="dropdown"
+                    >MEMBERSHIP</a
+                  >
+                  <ul
+                    class="menu dropdown-menu dropdown-menu-dark opacity-75"
+                    style="
+                      background-color: rgba(0, 0, 0, 50);
+                      padding: 20px 0px 20px 10px;
+                      margin-top: 28px;
+                      border-radius: 0px;
+                      font-size: 0.8rem;
+                    "
+                  >
+                    <a class="dropdown-item" href="">BOOMERANG MEMBERSHIP</a>
+                    <a class="dropdown-item" href="">MEMBERSHIP BENEFIT</a>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-auto">
+                <div class="dropdown">
+                  <a
+                    style="cursor: pointer"
+                    class="nav_menu dropdown-toggle fw-bold"
+                    data-bs-toggle="dropdown"
+                    >BENEFIT</a
+                  >
+                  <ul
+                    class="menu dropdown-menu dropdown-menu-dark opacity-75"
+                    style="
+                      background-color: rgba(0, 0, 0, 50);
+                      padding: 20px 0px 20px 10px;
+                      margin-top: 28px;
+                      border-radius: 0px;
+                      font-size: 0.8rem;
+                    "
+                  >
+                    <a class="dropdown-item" href="">CREDIT CARDS</a>
+                    <a class="dropdown-item" href="">SKT & KT</a>
+                    <a class="dropdown-item" href="">POINT PAYMENT</a>
+                    <a class="dropdown-item" href="">VOUCHER</a>
+                    <a class="dropdown-item" href="">EVENT</a>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-auto">
+                <div class="dropdown">
+                  <a
+                    style="cursor: pointer"
+                    class="nav_menu dropdown-toggle fw-bold"
+                    data-bs-toggle="dropdown"
+                    >ACADEMY</a
+                  >
+                  <ul
+                    class="menu dropdown-menu dropdown-menu-dark opacity-75"
+                    style="
+                      background-color: rgba(0, 0, 0, 50);
+                      padding: 20px 0px 20px 10px;
+                      margin-top: 28px;
+                      border-radius: 0px;
+                      font-size: 0.8rem;
+                    "
+                  >
+                    <a class="dropdown-item" href="">Steak Cooking Class I</a>
+                    <a class="dropdown-item" href="">Steak Cooking Class II</a>
+                    <a class="dropdown-item" href="">Culinary Class</a>
+                    <a class="dropdown-item" href="">Wine Class</a>
+                  </ul>
+                </div>
+              </div>
 
+              <div class="col-auto">
+                <a style="cursor: pointer" class="nav_menu fw-bold">STORE</a>
+              </div>
+            </div>
+          </div>
+          <div class="row" style="font-size: 0.8rem">
+            <div class="col">
+              <!-- text-nowrap : 줄바꿈X -->
+              <a
+                class="text-nowrap"
+                style="color: rgb(146, 145, 146); text-decoration: none"
+                href=""
+                >고객의 소리</a
+              >
+            </div>
+            <div class="col">
+              <a
+                class="text-nowrap"
+                style="color: rgb(146, 145, 146); text-decoration: none"
+                href=""
+                >채용</a
+              >
+            </div>
+            <div class="col">
+              <a
+                class="text-nowrap"
+                style="color: rgb(146, 145, 146); text-decoration: none"
+                href="./login.html"
+                >로그인</a
+              >
+            </div>
+            <div class="col">
+              <a
+                class="nav_menu text-nowrap"
+                href=""
+                style="
+                  background-color: rgb(85, 85, 85);
+                  padding: 5px 20px 5px 20px;
+                  text-decoration: none;
+                "
+                >회원가입</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-</body>
+  </body>
 </html>
